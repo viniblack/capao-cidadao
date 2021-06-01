@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* Menu */
@@ -23,19 +23,35 @@ header {
     background-position: center;
     background-size: cover;
     position: fixed;
-    
+
     width: 100%;
     z-index: 999;
 }
 
-.navbar-nav li{
-    margin: 0 1rem;
-    width: 6rem;
+.navbar-nav li {
+    margin: 0 .5rem;
+    width: 7rem;
 
 }
-.navbar-nav li a{
-    text-align: center;
 
+.navbar-nav li a {
+    text-align: center;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 767px) {
+    .navbar-nav li {
+        width: 100%;
+
+    }
+
+    .navbar-nav li a{
+
+        font-size: 1rem;
+
+    }
 }
 
 /* Footer */
