@@ -9,13 +9,12 @@
 }
 
 :root {
-    --font-action: "Mulish", serif;
-    --font-secundary: "Josefin Slab", serif;
-    --font-primary: "Baloo Da 2", serif;
+    --curva-borda: 20px;
 }
 
 body {
     font-family: 'Roboto Mono', monospace;
+    color: #0D518C;
 }
 
 /* Menu */
@@ -47,11 +46,31 @@ header {
 
     }
 
-    .navbar-nav li a{
+    .navbar-nav li a {
 
         font-size: 1rem;
 
     }
+}
+
+
+.bt-categoria {
+    cursor: pointer;
+
+    background: #0D518C;
+    border: none;
+    border-radius: var(--curva-borda);
+    color: #ffffff;
+    letter-spacing: .1rem;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.bt-categoria:hover {
+
+    color: #ffffff;
+    background: #097ce0;
 }
 
 /* Footer */

@@ -1,3 +1,5 @@
+
+
 .banner {
   overflow: hidden;
 
@@ -55,19 +57,6 @@
 
 }
 
-.banner-text a {
-  cursor: pointer;
-
-  background: #0D518C;
-  border: none;
-  border-radius: 20px;
-  color: #ffffff;
-  letter-spacing: .1rem;
-  padding: 1rem 3rem;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .seta {
   position: absolute;
 
@@ -83,6 +72,18 @@
   width: 4rem;
 }
 
+
+@keyframes move {
+  0% {
+    top: 87vh;
+    left: 50vw;
+  }
+
+  100% {
+    top: 92vh;
+    left: 50vw;
+  }
+}
 
 .saiba-mais {
   background: black;
@@ -107,8 +108,11 @@
   display: flex;
   justify-content: center;
 
-  height: 20rem;
+  height: 25rem;
   width: 20rem;
+  background-color: #E5E5E5;
+  border-radius: var(--curva-borda);
+  border: 1px solid rgba(235, 7, 7, 0);
 }
 
 .card-image {
@@ -117,19 +121,9 @@
 
 .card span {
   font-weight: bold;
+  font-size: 1.2rem;
   text-align: center;
 
   margin: 3rem 1rem 0;
 }
 
-@keyframes move {
-  0% {
-    top: 43rem;
-    left: 50vw;
-  }
-
-  100% {
-    top: 45rem;
-    left: 50vw;
-  }
-}
