@@ -81,6 +81,7 @@ header {
 /* Footer */
 footer {
     background: url('../src/barra.png');
+    color: #fff;
 }
 
 footer span {
@@ -94,6 +95,11 @@ footer span {
 }
 
 .contatos a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
+}
+
+.link-social{
+
+    margin: 0 .5rem;
 }
