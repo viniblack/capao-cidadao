@@ -1,0 +1,55 @@
+.img {
+    overflow: hidden;
+    top: 88vh;
+    height: 100vh;
+    width: 100%;
+
+  }
+
+.banner-text {
+    position: absolute;
+    top: 30vh;
+    left: center;
+  }
+
+
+  /*  Section 2 cards */
+
+  .card1> h3 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+
+  }
+  
+  .card1> p {
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .card1 .cards .card {
+    width: 22rem;
+    margin: 3vmin 3vmin;
+  }
+  
+  .cards div {
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  
+  .card .card-text {
+    padding: 2.5rem 3rem;
+
+  }
+  
+  .card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+  }
+  
+  .card-body .pricing > h1 {
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+  }
